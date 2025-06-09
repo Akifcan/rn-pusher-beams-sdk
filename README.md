@@ -297,6 +297,13 @@ pusherBeams.clearAllState()
 ```js
 pusherBeams.stop()
 ```
+### Set User Id
+```js
+    const AUTH_URL = ''
+    const BEARER_TOKEN = ''
+    pusherBeams.setUserId('userid03', AUTH_URL, BEARER_TOKEN)
+```
+
 ### Notifications Events
 **Note**: Notifications events are not available on android.
 
