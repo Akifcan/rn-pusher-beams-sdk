@@ -1,6 +1,6 @@
 {
   "name": "rn-pusher-beams-sdk",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "f",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",

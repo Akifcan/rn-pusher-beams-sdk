@@ -42,7 +42,12 @@ export const pusherBeams = {
   },
   onNotification: (cb: (message: any) => void) => {
     return eventEmitter.addListener('message', (message: any) => {
-      cb(message);
+      if (Array.isArray(message)) {
+        const item = message[0] as NotificationMessage;
+        cb(item);
+      }else{
+        cb(message)
+      }
     });
   },
 };
