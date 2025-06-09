@@ -1,6 +1,6 @@
 {
   "name": "rn-pusher-beams-sdk",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Pusher Beams sdk for react native with new architecture",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
