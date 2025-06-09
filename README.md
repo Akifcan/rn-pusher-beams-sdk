@@ -2,6 +2,10 @@
 
 - pusher beams sdk for react native works with new archtiecture.
 
+**Note**: On android enable permissions manually on app settings page.
+
+![img](https://i.ibb.co/mFtCrfzw/Frame-1597883861.png)
+
 ## [You can check this example repository by clicking this link](https://github.com/Akifcan/rn-pusher-beams-sdk-example)
 
 ## If you counter any issues you can contact me at [akifcan.dev](akifcan.dev)
