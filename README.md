@@ -8,7 +8,7 @@
 ## [You can check this example repository by clicking this link](https://github.com/Akifcan/rn-pusher-beams-sdk-example)
 **Note (for example app)**: On android enable permissions manually on app settings page.
 
-## If you counter any issues you can contact me at [akifcan.dev](akifcan.dev)
+## If you counter any issues you can contact me at [https://akifcan.dev](akifcan.dev)
 
 ## Installation
 
