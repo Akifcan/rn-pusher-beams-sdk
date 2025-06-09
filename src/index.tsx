@@ -3,10 +3,6 @@ import { NativeModules, NativeEventEmitter } from 'react-native';
 import type { NotificationMessageProps, BackgroundMessageProps } from './types';
 const eventEmitter = new NativeEventEmitter(NativeModules.NativeEventEmitter);
 
-export function multiply(a: number, b: number): number {
-  return RnPusherBeamsSdk.multiply(a, b);
-}
-
 export type NotificationMessage = NotificationMessageProps;
 export type BackgroundMessage = BackgroundMessageProps;
 
@@ -45,8 +41,8 @@ export const pusherBeams = {
       if (Array.isArray(message)) {
         const item = message[0] as NotificationMessage;
         cb(item);
-      }else{
-        cb(message)
+      } else {
+        cb(message);
       }
     });
   },

@@ -237,7 +237,7 @@ class ReactNativeDelegate: RCTDefaultReactNativeFactoryDelegate {
 ## Usage
 
 ```js
-import {pusherBeams, NotificationMessage} from 'rn-pusher-beams-sdk';
+import {pusherBeams} from 'rn-pusher-beams-sdk';
 ```
 
 ### Register device

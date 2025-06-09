@@ -13,12 +13,6 @@ RCT_EXPORT_MODULE()
 RCTNativePusherBeamsImpl *nativepusherbeamsimpl = [[RCTNativePusherBeamsImpl alloc] init];
 
 
-- (NSNumber *)multiply:(double)a b:(double)b {
-    NSNumber *result = @(a * b);
-
-    return result;
-}
-
 - (nonnull NSNumber *)addDeviceInterest:(nonnull NSString *)interest {
   return [nativepusherbeamsimpl addDeviceInterest:interest];
 }

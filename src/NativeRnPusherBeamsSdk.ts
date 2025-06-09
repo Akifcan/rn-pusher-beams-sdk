@@ -10,7 +10,6 @@ export interface Spec extends TurboModule {
   setUserId(userId: string, url: string, token: string): boolean;
   clearDeviceInterests(): boolean;
   addDeviceInterest(interest: string): boolean;
-  multiply(a: number, b: number): number;
 }
 
 export default TurboModuleRegistry.getEnforcing<Spec>('RnPusherBeamsSdk');
